@@ -1,0 +1,57 @@
+
+article {
+    background-color: #003300;
+    height: 100vh;
+    width: 100vw;
+}
+
+
+.projetos {
+  height: 80vh;
+  width: 100vw;
+}
+
+nav span {
+   margin: 1rem;
+   cursor: pointer;
+   color: rgb(236, 11, 180);
+}
+
+article h1, p {
+    color: rgb(236, 11, 180);
+}
+
+.custom-margin {
+    margin-top: 4rem; /* ou qualquer outro valor em pixels ou em porcentagem */
+  }
+
+nav {
+   margin: 0 auto; 
+   display: flex;
+   align-items: center;
+   justify-content: space-around; 
+}
+
+
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav a {
+  display: block;
+  color: rgb(236, 11, 180);
+  margin: 1rem;
+  text-decoration: none;
+  padding: 0rem;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+}
